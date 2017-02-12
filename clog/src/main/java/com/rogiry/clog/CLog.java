@@ -18,6 +18,10 @@ public class CLog {
         packageName = c.getApplicationContext().getPackageName() + ".";
     }
 
+    public CLog(String packageName) {
+        this.packageName = packageName;
+    }
+
     public void d(String msg){
         Log.d(TraceResult(), msg);
     }
