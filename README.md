@@ -21,7 +21,7 @@ App:gradle
 ```
 dependencies {
     ...
-    compile 'com.github.Rogiry:CLog:0.0.5'
+    compile 'com.github.Rogiry:CLog:0.0.6'
 }
 ```
 
