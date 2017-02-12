@@ -15,7 +15,7 @@ public class CLog {
 
     public CLog(Context c) {
         this.c = c;
-        packageName = c.getApplicationContext().getPackageName();
+        packageName = c.getApplicationContext().getPackageName() + ".";
     }
 
     public void d(String msg){
